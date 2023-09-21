@@ -129,8 +129,10 @@ namespace ResMant
             // 
             // fLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(492, 140);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
